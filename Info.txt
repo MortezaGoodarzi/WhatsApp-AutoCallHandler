@@ -1,0 +1,24 @@
+Install and execute steps:
+1. Install python from its original website "python.org".
+2. Install the following libraries in the terminal:
+	1. pyautogui
+	2. pillow
+	3. opencv-python
+	4. opencv-python-headless
+3. Crop the answer and end button from your own screen and replace the images in the "images" folder
+with "answer_button.png" and "end_button.png" names.
+4. Create a batch file for executing the app through the following steps:
+	1. Create a txt file with notepad.
+	2. Type these lines in txt file:
+		@echo off
+		python "the direct path of the main.py in your pc\main.py"
+		pause
+	3. Press "files" menu and click "save as" and write the "file name"
+	 with ".bat" format and choose "any files" from "save as type" and
+	 then save it in the "main.py" file path.
+5. Run the batch file and select the directory of the images folder and enjoy.
+
+Note: This app works just for WhatsApp windows.
+Note2: There is just a problem when WhatsApp is not open. So it is better to open it before answering calls.
+If there was any bug or problem please email me :)
+	
